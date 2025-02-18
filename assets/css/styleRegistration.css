@@ -1,0 +1,114 @@
+/* Для Chrome и Safari */
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+	-webkit-appearance: block;
+}
+
+/* Для Firefox */
+input[type='number'] {
+	-moz-appearance: textfield;
+}
+
+/* Для IE и Edge */
+input[type='number']::-ms-clear {
+	display: none;
+}
+
+.registration {
+	padding-block: 100px;
+}
+.registration h2 {
+	font-size: 32px;
+	color: #fff;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.registration form {
+	max-width: 891px;
+	padding: 30px;
+	display: flex;
+
+	height: 446px;
+	column-gap: 20px;
+	margin: 0 auto;
+	background-color: #fff;
+	border-radius: 30px;
+}
+.registration form .block {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	gap: 28px;
+}
+.registration .box {
+	display: flex;
+	align-items: center;
+}
+.registration form .block label {
+	display: flex;
+
+	column-gap: 10px;
+}
+
+.icon-email {
+	content: '';
+	width: 41px;
+	height: 41px;
+	background-repeat: no-repeat;
+
+	border: none;
+	background-color: transparent;
+	background-image: url('/icons/ic_baseline-email.svg');
+}
+.icon-pass {
+	content: '';
+	width: 41px;
+	height: 41px;
+	background-repeat: no-repeat;
+	border: none;
+	background-color: transparent;
+	background-image: url('/icons/pass.svg');
+}
+
+form input {
+	width: 239px;
+	height: 55px;
+	display: flex;
+	border: none;
+	background-color: #d9d9d9;
+	border-radius: 4px;
+}
+form input::placeholder {
+	color: #000;
+	padding-left: 10px;
+	font-size: 16px;
+}
+form .box {
+	position: relative;
+}
+form .box label {
+	position: absolute;
+	top: -18px;
+}
+form .block .info {
+	display: flex;
+	column-gap: 6px;
+}
+form .block .info input {
+	width: 18px;
+	height: 12px;
+	padding-right: 10px;
+}
+
+#buttonRegistr {
+	width: 244px;
+	height: 47px;
+	background-color: #000;
+	color: #fff;
+	font-size: 24px;
+	transition: 0.6s;
+}
+#buttonRegistr:hover {
+	background-color: #d9d9d9;
+}

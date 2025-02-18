@@ -1,0 +1,21 @@
+.err {
+	text-align: center;
+}
+h2 {
+	font-size: 48px;
+	color: #fff;
+}
+a {
+	font-size: 20px;
+
+	color: #0095ff;
+}
+p {
+	font-size: 16px;
+	color: #fff;
+}
+footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+}
